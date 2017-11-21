@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20171115203312) do
   create_table "entries", force: :cascade do |t|
     t.string "word"
     t.text "definition"
+    t.string "language"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
